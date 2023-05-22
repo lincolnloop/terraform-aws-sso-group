@@ -1,9 +1,5 @@
 data "aws_ssoadmin_instances" "this" {}
 
-provider "aws" {
-  region = local.region
-}
-
 resource "aws_ssoadmin_permission_set" "this" {
   name             = var.name
   description      = var.description
