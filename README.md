@@ -40,7 +40,7 @@ For more information on each variable, refer to the module's source code.
 ## Usage
 
 ```hcl
-module "aws_sso_user" {
+module "aws_sso_group" {
   source = "path/to/module"
 
   name             = "MyGroup"
