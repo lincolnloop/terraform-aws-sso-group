@@ -1,19 +1,19 @@
 variable "name" {
-  type = string
+  type        = string
   description = "Name for the group and new policy group"
 }
 variable "description" {
-  type = string
+  type        = string
   description = "Description for the group and new policy group"
 }
 variable "target_account_id" {
-  type = string
+  type        = string
   description = "AWS account id to deploy resources to"
 }
 variable "relay_state" {
-  type    = string
+  type        = string
   description = "The relay state URL used to redirect users within the application during the federation authentication proces (Optional)"
-  default = null
+  default     = null
 }
 variable "include_policy_json" {
   default     = true
