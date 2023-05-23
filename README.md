@@ -41,7 +41,7 @@ For more information on each variable, refer to the module's source code.
 
 ```hcl
 module "aws_sso_group" {
-  source = "git@github.com:lincolnloop/terraform-aws-sso-group.git"
+  source = "github.com/lincolnloop/terraform-aws-sso-group"
 
   name             = "MyGroup"
   description      = "MyGroup description"
