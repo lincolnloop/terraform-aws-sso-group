@@ -6,9 +6,9 @@ variable "description" {
   type        = string
   description = "Description for the group and new policy group"
 }
-variable "target_account_id" {
-  type        = string
-  description = "AWS account id to deploy resources to"
+variable "target_account_ids" {
+  type        = list(string)
+  description = "AWS account ids to deploy resources to"
 }
 variable "relay_state" {
   type        = string
